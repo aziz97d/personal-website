@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 15px;
+}
+.nav{
+    margin-top: 2%;
+    margin-right: 10%;
+    display: block;
+    height: 50px;
+    
+}
+.nav ul li{
+    list-style: none;
+    float: right;
+}
+.nav ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: gray;
+}
+.top-section{
+    width: 100%;
+    height: 1000px;
+}
+.top-sub{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 5%;
+}
+.top-left{
+    padding-top: 100px;
+    padding-left: 5%;
+}
+.top-left h1{
+    text-transform: uppercase;
+    font-size: 55px;
+}
+.tomato-text{
+    color: tomato;
+}
+.top-left p{
+    margin-top: 10px;
+}
+.button-style{
+    margin-top: 20px;
+    padding: 15px 50px;
+    background: #FB7462;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+.top-left img{
+    margin-top: 150px;
+    width: 85%;
+}
+/* .top-right{
+    background: royalblue;
+} */
+.top-right .my-img-2{
+    margin-top: 100px;
+    width: 90%;
+}
+
+.top-right .About-me{
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.top-right .About-me h1{
+    font-size: 50px;
+}
+.top-right .About-me p{
+    margin: 25px 0;
+}
+/* .top-right .About-me a{
+    text-decoration: none;
+    background-color: tomato;
+    display: inline-block;
+    line-height: 40px;
+} */
+.top-right .About-me .download-icon{
+    
+    width: 30px;
+    height: 30px;
+}
+
+.project-section{
+    height: 700px;
+    width: 100%;
+    background-color: #F8F9FC;
+    text-align: center;
+    /* kmargin:auto; */
+
+}
+.project-section h1{
+    padding: 100px;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+
+}
+.project-section .project{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    /* float: left; */
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 0px 0px 40px rgb(194, 192, 192);
+}
+.project-section .project img{
+    margin-top: 15px;
+    width: 90%;
+    /* height: 150px; */
+    border-radius: 15px;
+}
+.project-section .project h3{
+    margin: 10px 0;
+}
+
+.inquiry-section{
+    height: 600px;
+    text-align: center;
+}
+.inquiry-section .inquiry{
+    width: 60%;
+    height: 200px;
+    background-image: url('/images/inquiry-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 100px 0;
+    
+}
+.inquiry-section .inquiry h1{
+    display: inline-block;
+    line-height: 200px;
+    font-size: 45px;
+    color: white;
+    margin-right: 200px;
+}
+.inquiry-section p{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 5px 0;
+    opacity: .8;
+}
+.social-icon{
+    width: 40px;
+    margin: 10px;
+    opacity: 0.8;
+}
+.inquiry-section h3{
+    color: grey;
+}
