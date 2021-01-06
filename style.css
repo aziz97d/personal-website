@@ -134,7 +134,7 @@ p{
 .inquiry-section .inquiry{
     width: 60%;
     height: 200px;
-    background-image: url('/images/inquiry-img.png');
+    background-image: url('images/inquiry-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
